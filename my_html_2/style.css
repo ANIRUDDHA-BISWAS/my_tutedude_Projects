@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 3vw;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.hero {
+    height: 90vh;
+    display: flex;
+}
+
+
+/* Left Div */
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.hero-left h1 {
+    font-size: 5vw;
+    margin-bottom: 2vh;
+}
+
+.hero-left p {
+    font-size: 1.5vw;
+    line-height: 1.6;
+    margin-bottom: 4vh;
+}
+
+.hero-left button {
+    width: fit-content;
+    padding: 1.5vh 2vw;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Right Div */
+
+.hero-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
